@@ -1,0 +1,5 @@
+R2Log
+rich
+docxtpl
+argparse
+deep_translator
