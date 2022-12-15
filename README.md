@@ -3,9 +3,9 @@
 
 <p>fromCISXMLtoDocx.py read CIS-CAT output XML file and write a report.</p>
 
-<p>Please fill free to change the template word inside ./template/template_word.doc</p>
+<p>Please fill free to change the word template inside ./templates/template_word.doc</p>
 
-<p>Works only on windows.</p>
+<p>/!\ Works only on windows. /!\</p>
 
 ## Install
 ```sh
@@ -13,11 +13,10 @@ pip install -r requirements.txt
 ```
 
 ## How to use
-<p>Add your cis xml report into ./cis_xml/ and launch 
+Add your cis xml report into ./cis_xml/ and launch 
 ```
 python fromCISXMLtoDocx.py --export-docx MyReport
 ```
-</p>
 
 ## Usage
 ```sh
